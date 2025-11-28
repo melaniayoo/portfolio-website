@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run generate-notes",
+    "build": "next build",
     "start": "next start",
-    "generate-notes": "node scripts/generateNotesJson.js"
   },
   "dependencies": {
     "framer-motion": "^12.23.24",
